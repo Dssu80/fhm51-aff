@@ -88,7 +88,7 @@
                     </div>
                     <div class='btn-cont m_d animate__animated  animate__pulse animate__infinite animate__slow'>
                         <a class='info-btn ' href='#'>
-                            <span>MORE INFO</span>
+                            <span data-i18n="more-info"></span>
                             <span class='line-1'></span>
                             <span class='line-2'></span>
                             <span class='line-3'></span>
@@ -128,9 +128,10 @@
                             <div class="feature-item" data-i18n="feature-item5"></div>
                         </div>
                     </div>
-                    <div class='btn-cont2 t-align-center animate__animated  animate__pulse animate__infinite animate__slow' style="margin-top: 70px;">
+                    <div class='btn-cont2 t-align-center animate__animated  animate__pulse animate__infinite animate__slow'
+                        style="margin-top: 70px;">
                         <a class="info-btn2 m_d " href='#'>
-                            MORE INFO
+                            <span data-i18n="more-info"></span>
                             <span class='line-1'></span>
                             <span class='line-2'></span>
                             <span class='line-3'></span>
@@ -179,9 +180,10 @@
                     </div>
                 </div>
                 <div class="col-12">
-                    <div class='btn-cont t-align-center animate__animated  animate__pulse animate__infinite animate__slow'>
+                    <div
+                        class='btn-cont t-align-center animate__animated  animate__pulse animate__infinite animate__slow'>
                         <a class='info-btn m_d' href='#'>
-                            MORE INFO
+                            <span data-i18n="more-info"></span>
                             <span class='line-1'></span>
                             <span class='line-2'></span>
                             <span class='line-3'></span>
@@ -250,9 +252,10 @@
 
 
                 <div class="col-12">
-                    <div class='btn-cont2 t-align-center animate__animated  animate__pulse animate__infinite animate__slow'>
+                    <div
+                        class='btn-cont2 t-align-center animate__animated  animate__pulse animate__infinite animate__slow'>
                         <a class='info-btn2 m_d' href='#'>
-                            MORE INFO
+                            <span data-i18n="more-info"></span>
                             <span class='line-1'></span>
                             <span class='line-2'></span>
                             <span class='line-3'></span>
@@ -296,12 +299,14 @@
 
                         </div>
                         <!-- send-btn -->
-                        <div class='btn-cont2 t-align-center animate__animated  animate__pulse animate__infinite animate__slow'>
-                            <a class='info-btn2' href='#'>
+                        <div
+                            class='btn-cont2 t-align-center animate__animated  animate__pulse animate__infinite animate__slow'>
+                            <a class='info-btn2 send_btn' href='javascript:;' >
                                 <span>
-                                    <span style="margin-right:10px ;">SEND</span><span><img
+                                    <span style="margin-right:10px ;" data-i18n="send"></span><span><img
                                             src="images/svg/ICON-send.svg" alt="" width="24"
-                                            style="padding-bottom: 5px;"></span>
+                                            style="padding-bottom: 5px;">
+                                    </span>
                                 </span>
                                 <span class='line-1'></span>
                                 <span class='line-2'></span>
@@ -322,10 +327,10 @@
     </section>
     <section class="faq">
         <div class="container">
-            <div class="row" >
+            <div class="row">
                 <div class="col-12 t-align-center m_20">
-                    <span class="title m_20">
-                        FAQ
+                    <span class="title m_20" data-i18n="menu_FAQ">
+
                     </span>
                 </div>
 
@@ -693,6 +698,18 @@
         </div>
         <div class="md-overlay"></div>
     </div>
+    <div class="md send-box">
+        <div class="md-modal">
+            <button class="lity-close md-close" onclick="pauseVid()" type="button">×</button>
+            <div class="md-content">
+                <p class="m_20  t-align-center" data-i18n="send-message">
+                </p>
+                
+                <a href="https://t.me/+VSOnWiDOpi85Mjdl" target="_blank" style="margin: 0 auto; display: block;width:70px;" class="animate__animated  animate__pulse animate__infinite animate__slow"><img src="images/svg/tg2.svg" alt="" width="100%"></a>
+            </div>
+        </div>
+        <div class="md-overlay"></div>
+    </div>
 
 
     <footer>
@@ -756,7 +773,7 @@
                     });
                 });
         }
-        $.i18n().locale = 'es'; 
+        $.i18n().locale = 'es';
 
         // Enable debug
         $.i18n.debug = true;
@@ -772,10 +789,10 @@
 
         AOS.init();
         AOS.init({
-            duration: 1000, 
-            easing: "ease-in-out", 
-            offset: 610, 
-            once: true, 
+            duration: 1000,
+            easing: "ease-in-out",
+            offset: 610,
+            once: true,
         });
 
 

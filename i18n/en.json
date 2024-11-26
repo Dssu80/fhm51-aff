@@ -73,29 +73,10 @@
   "faqa10-1": "If there is no activity for a period of time, our Affiliate Team will send you a final notification, and we may take action to freeze your account in order to create a better and more perfect environment and response system.<br><br>",
   "faqa10-2": "How to get the link/banner code<br><br>① Log in to the affiliate management screen. <br><br>② Press [Links] under Affiliate  in the menu bar. <br><br>③ Enter your desired media name in the New Media Type Name field and click [Activate Link].<br><br>④ The dedicated link code will be displayed.<br><br>",
   "faqa10-3": "・Re-acquire a link code that has already been issued<br><br>Once you have created a link code, you can retrieve it from [Active Media] in [ Affiliate ].",
-  "": "",
-  "": "",
-  "": "",
-  "": "",
-  "": "",
-  "": "",
-  "": "",
-  "": "",
-  "": "",
-  "": "",
-  "": "",
-  "": "",
-  "": "",
-  "": "",
-  "": "",
-  "": "",
-  "": "",
-  "": "",
-  "": "",
-  "": "",
-  "": "",
-  "": "",
-  "": ""
+  "more-info": "MORE INFO",
+  "send": "SEND",
+  "send-message":" The information has been successfully submitted.<br> An agent will contact you as soon as possible."
+
 
   
 }

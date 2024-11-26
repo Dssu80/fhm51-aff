@@ -3,7 +3,7 @@
   "menu_Commission": "Comisión",
   "menu_Affiliate_list": "Afiliado",
   "menu_Contact_us": "Contáctenos",
-  "menu_FAQ": "FAQ",
+  "menu_FAQ": "Preguntas Frecuentes",
   "wel_title": "Gana más y Unete a Nosotros",
   "wel-des1": "FHM<span class='text-red'>bet</span>51 afiliados ofrece uno de los Programas de Afiliados online más competitivos de la industria.",
   "wel-des2": "Nos enfocamos en construir y mantener una verdadera asociación con cada uno de nuestros afiliados para mejorar nuestro éxito mutuo.",
@@ -60,7 +60,7 @@
   "faq5": "¿Cómo ver el Panel de Control?",
   "faqa5": "Comisión muestra los ingresos actuales según el tipo de asociación<br>[Comisión] muestra la compensación total para los diferentes tipos de asociaciones.",
   "faq6": "¿Cómo puedo ver el informe de ganancias?",
-  "faqa6": "Puedes consultar el [Informe de Ganancias] en la sección de [Informes] en la columna del menú en el lado izquierdo.<br><br>You can check the details of each affiliate partnership earnings during the period, and affiliate commissions are calculated accordingly at the end of each month.",
+  "faqa6": "Puedes consultar el [Informe de Ganancias] en la sección de [Informes] en la columna del menú en el lado izquierdo.<br><br>Puedes verificar los detalles de las ganancias de cada afiliado asociado durante el período, y las comisiones de afiliados se calculan en consecuencia al final de cada mes.",
   "faq7": "¿Qué son los ingresos Netos?",
   "faqa7": "En FHMBET51 los ingresos es igual a Ingresos Netos. Cuando se generan ingresos (Ingresos Netos) por un jugador registrado, compartimos la recompensa con nuestra cuota de ingresos acordada. Si la recompensa es superior a 1$ (redondeando hacia abajo al número entero más cercano), se pagará a la cuenta del jugador.",
   "faq8": "¿Qué es el arrastre negativo?",
@@ -71,10 +71,9 @@
   "faqa9-3": "<br>(2) Descongelar Cuenta<br>Si deseas reactivar tu cuenta después de que haya sido congelada por tu solicitud o debido a suspensión por inactividad como afiliado, debes contactar con el Equipo de Soporte para Afiliados de FHMbet51 en [FHMbet51]  y proporcionar la siguiente información:<br><br>・Tu nombre de cuenta de afiliado de FHMbet51<br><br>・Tu nombre completo y correo electrónico registrado.<br><br>Verificaremos la información anterior y descongelaremos tu cuenta solo si coinciden los datos",
   "faq10": "Quiero detener la actividad como afiliado",
   "faqa10-1": "Si no hay actividad durante un período de tiempo, nuestro Equipo de Afiliados te enviará una notificación final, y podremos tomar medidas para congelar tu cuenta con el fin de crear un entorno y un sistema de respuestas más óptimos y eficaces.<br><br>",
-  "faqa10-2": "Cómo ontener el código de enlace/anuncio<br><br>① Inicia sesión en el apartado de administración de afiliados<br><br>② Presiona [Enlaces] abajo de Afiliados en la barra del menú.<br><br>③ Introduce el nombre de tu medio deseado en el campo Nuevo Nombre de Tipo de Medio haz clic en  [Activar Enlace].<br><br>④ Se mostrará el código de enlace dedicado.<br><br>・Volver a obtener un código de enlace que ya se ha creado.<br><br>",
+  "faqa10-2": "Cómo obtener el código de enlace/anuncio<br><br>① Inicia sesión en el apartado de administración de afiliados<br><br>② Presiona [Enlaces] abajo de Afiliados en la barra del menú.<br><br>③ Introduce el nombre de tu medio deseado en el campo Nuevo Nombre de Tipo de Medio haz clic en  [Activar Enlace].<br><br>④ Se mostrará el código de enlace dedicado.<br><br>・Volver a obtener un código de enlace que ya se ha creado.<br><br>",
   "faqa10-3": "Una vez que hayas creado un código de enlace, puedes recuperarlo desde [Medios Activos] en [ Afiliado ].",
-  
-  
-  "username_placeholder": "请输入用户名",
-  "password_placeholder": "请输入密码"
+  "more-info": "Más info",
+  "send": "Enviar",
+  "send-message":"La información se ha enviado con éxito. <br>Un Agente se pondrá en contacto con usted lo más pronto posible."
 }

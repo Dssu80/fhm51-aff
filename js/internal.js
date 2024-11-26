@@ -10,6 +10,10 @@ $(document).ready(function () {
     $(".rule2").addClass("active");
   });
 
+  $(".send_btn").click(function () {
+    $(".send-box").addClass("active");
+  });
+
   $(".md-close,.md .md-overlay").click(function () {
     $(".md").removeClass("active");
   });
@@ -125,8 +129,6 @@ $(document).ready(function () {
   });
 
 
-
- 
   var $li = $('.menu li a');
 
   $li.click(function () {	

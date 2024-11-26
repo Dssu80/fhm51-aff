@@ -685,6 +685,35 @@ body {
   border-radius: 10px;
   border: 1px solid #000;
 }
+
+
+.send-box .md-content {
+  height: 320px;
+  color: #fff;
+  padding: 10px;
+  overflow: auto;
+  line-height: 1.75em;
+  font-size: 1.25em;
+  background-color: #212121;
+  border-radius: 10px;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+}
+
+
+.send-box .md-modal {
+  max-width: 450px;
+  width: calc(100vw - 100px);
+}
+.send-box a{
+  -webkit-transition: 0s;
+  transition: all 0s;
+}
 .cm {
   position: absolute;
   top: 300px;
@@ -1133,7 +1162,7 @@ footer {
 @media screen and (min-width: 1200px) {
   .menu {
     display: block !important;
-    width: 55%;
+    width: 70%;
   }
 
   .menu_mob {
