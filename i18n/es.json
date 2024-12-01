@@ -75,5 +75,10 @@
   "faqa10-3": "Una vez que hayas creado un código de enlace, puedes recuperarlo desde [Medios Activos] en [ Afiliado ].",
   "more-info": "Más info",
   "send": "Enviar",
-  "send-message":"La información se ha enviado con éxito. <br>Un Agente se pondrá en contacto con usted lo más pronto posible."
+  "send-message":"La información se ha enviado con éxito. <br>Un Agente se pondrá en contacto con usted lo más pronto posible.",
+  "sel-fb":"FB Message",
+  "sel-tg":"Telegram",
+  "sel-wp":"What's App",
+  "sel-ot":"Otros",
+  "social_id_placeholder":"Perfil o Contacto"
 }

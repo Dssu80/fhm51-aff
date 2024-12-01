@@ -291,6 +291,22 @@
                                     <input type="email" id="email" name="email" placeholder="Email"
                                         data-i18n-placeholder="email_placeholder" required>
                                 </div>
+                                <div class="form-group m_20 select-social">
+                                    <div class="select-container">
+
+                                        <select id="dropdown" name="options" required>
+                                            <option value="" disabled selected hidden data-i18n="sel-fb"></option>
+                                            <option value="option1" data-i18n="sel-fb"></option>
+                                            <option value="option2" data-i18n="sel-tg"></option>
+                                            <option value="option3" data-i18n="sel-wp"></option>
+                                            <option value="option4" data-i18n="sel-ot"></option>
+                                        </select>
+                                    </div>
+                                    
+                                    <input type="text"id="social-id" name="social-id" placeholder="social-id" class="id"
+                                    data-i18n-placeholder="social_id_placeholder" required>
+                                </div>
+
                                 <div class="form-group m_10">
                                     <textarea id="message" name="message" placeholder="Message"
                                         data-i18n-placeholder="message_placeholder" rows="4" required></textarea>
@@ -301,7 +317,7 @@
                         <!-- send-btn -->
                         <div
                             class='btn-cont2 t-align-center animate__animated  animate__pulse animate__infinite animate__slow'>
-                            <a class='info-btn2 send_btn' href='javascript:;' >
+                            <a class='info-btn2 send_btn' href='javascript:;'>
                                 <span>
                                     <span style="margin-right:10px ;" data-i18n="send"></span><span><img
                                             src="images/svg/ICON-send.svg" alt="" width="24"
@@ -704,8 +720,11 @@
             <div class="md-content">
                 <p class="m_20  t-align-center" data-i18n="send-message">
                 </p>
-                
-                <a href="https://t.me/+VSOnWiDOpi85Mjdl" target="_blank" style="margin: 0 auto; display: block;width:70px;" class="animate__animated  animate__pulse animate__infinite animate__slow"><img src="images/svg/tg2.svg" alt="" width="100%"></a>
+
+                <a href="https://t.me/+VSOnWiDOpi85Mjdl" target="_blank"
+                    style="margin: 0 auto; display: block;width:70px;"
+                    class="animate__animated  animate__pulse animate__infinite animate__slow"><img
+                        src="images/svg/tg2.svg" alt="" width="100%"></a>
             </div>
         </div>
         <div class="md-overlay"></div>

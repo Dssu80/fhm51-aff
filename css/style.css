@@ -2118,8 +2118,54 @@ textarea:focus {
 textarea {
   resize: none;
 }
+.form-group select{
+  
+  padding: 12px 16px;
+  background: #222;
+  border: 1px solid #444;
+  border-radius: 4px;
+  color: #888;
+  width: 100%;
+  font-size: 1.5em;
+  appearance: none;         
+  -webkit-appearance: none; /* For Safari */
+  -moz-appearance: none;    /* For Firefox */
+  padding-right: 30px;      
+  position: relative;
+}
+.form-group select option{
+  color: #fff;
+}
+.form-group select:valid {
+  color: #fff;
+}
+/* 父容器，設置相對定位 */
+.select-container {
+  position: relative;
+  display: inline-block;
+  width: 48%;
+  margin-right: 2%;
+}
 
+/* 自定義箭頭 */
+.select-container::after {
+  content: '▼';              
+  font-size: 12px;          
+  color: gray;           
+  position: absolute;
+  right: 10px;                
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;       
+}
 
+.id{
+  width: 50%;
+}
+.select-social{
+  display: flex;
+  justify-content: space-between;
+}
 
 
 .faq {

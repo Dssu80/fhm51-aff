@@ -75,8 +75,12 @@
   "faqa10-3": "・Re-acquire a link code that has already been issued<br><br>Once you have created a link code, you can retrieve it from [Active Media] in [ Affiliate ].",
   "more-info": "MORE INFO",
   "send": "SEND",
-  "send-message":" The information has been successfully submitted.<br> An agent will contact you as soon as possible."
-
+  "send-message":" The information has been successfully submitted.<br> An agent will contact you as soon as possible.",
+  "sel-fb":"FB Message",
+  "sel-tg":"Telegram",
+  "sel-wp":"What's App",
+  "sel-ot":"Other",
+  "social_id_placeholder":"Social Media ID"
 
   
 }
